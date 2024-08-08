@@ -1,0 +1,3 @@
+-ls -mtp -m preencher largura com uma lista de entradas separadas por vírgula
+         -p, --indicator-style=barra ,anexar / indicador aos diretórios
+         -t classifique por tempo, o mais novo primeiro; veja --time

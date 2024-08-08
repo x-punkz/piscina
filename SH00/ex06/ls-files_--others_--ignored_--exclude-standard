@@ -1,0 +1,8 @@
+ls-files --others --ignored --exclude-standard] mostra todos os arquivos ignorados
+                                                pelo commit no .gitignore
+    ls-files -> mostra as informacoes sobre o arquivos no index e na tree
+    --others -> mostra os arquivos nao rastreados na saída.
+    -i,--ignored-> mostra apenas arquivos ignorados.
+    --exclude-standard -> adiciona o arquivo de exclusao do 
+           git(.git/info/exclude, .gitignore em cada diretorio e no arquivo de
+           exclusao global)

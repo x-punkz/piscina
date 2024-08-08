@@ -1,0 +1,21 @@
+./a.out teste.c executa o arquivo
+gcc teste.c copila o arquivo
+ 
+-#include<> é a biblioteca
+todo espaço deve ser dado com tab
+- void é a funçao [void nome-da-funcao(){}] se for letra coloco dentro [(char letra),(int numero)]
+dentro das chaves,digito a funçao[ ] 
+-write() é 1 byte de saida+, ou o ponteiro apontando p funçao se for char ou o conteudo em forma de string se for void+, a quantidade de bytes de saida(caracteres) e fecha com ; 
+
+para executar,eu crio uma funçao chamada int main(){} chamando a funçao e dentro dela se for void,deixo vazio e se for outra coisa,o conteudo dentro de chaves,fecho com ;
+
+p sair do vim -> esc, :, w(salvar) q(sair)
+copilo com cc + as flags necessarias, depois executo o arquivo criado com./ no começo
+
+para passar numero no write,eu posso passar ou o numero representado na tabela ascii,ou a representacao literal porem entre aspas simples ''.
+para imprimir as coisas no write eu passo o loop primeiro e so depois o write
+
+- primeiro eu crio a variavel [char  i;],depois eu pulo uma linha e dou a descriçao, ex:
+[ char   i;
+  
+  i = hello;]
