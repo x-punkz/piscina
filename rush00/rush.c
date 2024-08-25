@@ -42,7 +42,7 @@ void	rush(int x, int y)
 		while (print_line < y)
 		{
 			if (print_line == 0 || print_line == y - 1)
-				columns(x, 'o', '-');
+				columns(x, 'X', '-');
 			else
 				columns(x, '|', ' ');
 			print_line++;

@@ -10,10 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+#include <stdlib.h>
 void	rush(int x, int y);
 
-int	main(void)
+/*int	main(void)
 {
-	rush(5, 3);
+	rush(16, 16);
 	return (0);
+}
+*/
+int	main(int argc,char **argv)
+{
+	if (argc > 3)
+		write(1, "ERROR", 5);
+	rush(atoi(argv[1]), atoi(argv[2]));
+	return(0);
 }
