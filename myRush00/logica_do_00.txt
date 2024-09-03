@@ -1,0 +1,14 @@
+Enquanto largura for menor que x e altura for menor que y,entra.
+	enquanto altura for > 0 e altura < (y - 1)
+e largura for menor ou igual (x - 1),entra.
+		se largura for 0 ou largura for igual (x - 1),printa '|'
+		senao printa ' '
+		largura ++.
+	enquanto altura for igual a 0 e largura for menor ou igual x -1 
+ou altura = y -1 e largura meor igual a x -1,entra. 
+		se largura for 0 ou largura for (x - 1), printa 'o'.
+		senao printa '-'.
+		largura ++
+	printa quebra de linha.
+	altura ++
+	e zera a largura. 

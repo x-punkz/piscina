@@ -1,0 +1,179 @@
+- RUSH00 -
+
+- os arquivos que devem ser entregues sao >main.c<, um >ft_putchar<,
+ e o seu >rush0x.c< no qual 0X representa o numero do seu rush.
+Exemplo de main.c:
+x-----------------x
+| int main()	  |
+| {		  |
+| rush(5,5);	  |
+| return (0);	  |
+| }		  |
+x-----------------x
+- Voce devera,portanto,excrever a funçao RUSH tendo como parametro
+duas variaveis de tipo inteiro nomeadas X e Y.
+
+- Sua funçao RUSH devera exibir um retangulo de X caracteres de largura,
+e Y caracteres de altura.
+
+- O seu main sera modificado na defesa para poder mudar os parametros
+ da chamada à funçao RUSH. EX.: rush(123, 42);
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- RUSH 00 -
+
+- rush(5,3) exibirá isto:
+x-------------x
+|	      |
+|  $>./a.out  |
+|  o---o      |
+|  |   |      |
+|  o---o      |
+|  $>	      |
+|	      |
+x-------------x
+
+- rush(5,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  o---o      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  o          |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,5) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  o          |
+|  |          |
+|  |          |
+|  |          |
+|  o          |
+|  $>         |
+|             |
+x-------------x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+- RUSH 01 -
+
+- rush(5,3) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  /***\      |
+|  *   *      |
+|  \***/      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(5,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  /***\      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  /          |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,5) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  /          |
+|  *          |
+|  *          |
+|  *	      |
+|  \	      |
+|  $>         |
+|             |
+x-------------x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+- RUSH 02 -
+
+- rush(5,3) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  ABBBA      |
+|  B   B      |
+|  CBBBC      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  A          |
+|  $>         |
+|             |
+x-------------x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+- RUSH 03 -
+
+- rush(5,3) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  ABBBC      |
+|  B   B      |
+|  ABBBC      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  A          |
+|  $>         |
+|             |
+x-------------x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+- RUSH 04 -
+
+- rush(5,3) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  ABBBC      |
+|  B   B      |
+|  CBBBA      |
+|  $>         |
+|             |
+x-------------x
+
+- rush(1,1) exibirá isto:
+x-------------x
+|             |
+|  $>./a.out  |
+|  A          |
+|  $>         |
+|             |
+x-------------x
+
