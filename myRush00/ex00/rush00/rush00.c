@@ -1,3 +1,5 @@
+void	ft_putchar(char c);
+
 void	loops(int larg, int alt, int x, int y)
 {
 	while (alt > 0 && alt < (y - 1) && larg <= (x - 1))

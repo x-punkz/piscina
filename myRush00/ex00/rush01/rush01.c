@@ -1,3 +1,5 @@
+void	ft_putchar(char c);
+
 void	loops(int larg, int alt, int x, int y)
 {
 	while (alt > 0 && alt < (y - 1) && larg <= (x - 1))
@@ -9,19 +11,18 @@ void	loops(int larg, int alt, int x, int y)
 		larg++;
 	}
 	while ((alt == 0 && larg <= (x - 1)) || (alt == (y - 1)
-		&& larg <= (x - 1)))
+			&& larg <= (x - 1)))
 	{
-		if ((larg == 0 && alt == 0) || (larg == (x - 1) 
-			&& alt == (y - 1)))
+		if ((larg == 0 && alt == 0) || (larg == (x - 1)
+				&& alt == (y - 1) && y != 1 && x != 1))
 			ft_putchar('/');
-		if ((alt == 0 && larg == (x - 1)) ||
-			(alt == (y - 1) && larg == 0))
-		       ft_putchar(92);	
+		else if ((alt == 0 && larg == (x - 1))
+			|| (alt == (y - 1) && larg == 0))
+			ft_putchar(92);
 		else
 			ft_putchar('*');
 		larg++;
 	}
-
 }
 
 void	rush(int x, int y)
@@ -31,7 +32,7 @@ void	rush(int x, int y)
 
 	larg = 0;
 	alt = 0;
-	while (larg < x && alt < y)
+	while (larg <= x && alt < y)
 	{
 		loops(larg, alt, x, y);
 		ft_putchar('\n');
