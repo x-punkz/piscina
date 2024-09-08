@@ -1,0 +1,18 @@
+crio dois inteiros,um p largura e outro p altura e dou a eles o valor de 0.
+equanto largura for menor que x e altura for menor que y; entro no loop.
+posso criar uma funçao so pros loops com (largura,altura,x e y)
+como argumento p economizar linha de funcao.
+depois dos loops, printo uma quebra de linha; aumento + 1 em altura,        zero a largura.
+
+nos loops:
+enquanto altura menor que 0 e altura menor que (y - 1) e
+largura menor ou igual a (x-1);entra.
+        se largura igual a 0 ou largura igual (x-1);Printa 'B'.
+        senao, printa ' ' e  aumenta a largura + 1.
+enquanto altura igual a 0 e largura menor igual a (x-1) ou
+altura <= (y-1) e largura menor igual a (x-1).
+        se altura igual a 0 e (largura igual a 0 ou largura igual a (x-1));
+		printa 'A'.
+	senao se altura igual a (y-1) e
+		(largura igual 0 ou largura igual a (x-1));printa 'C'
+        senao, printa 'B' e aumenta largura + 1
